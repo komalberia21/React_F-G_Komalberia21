@@ -1,0 +1,141 @@
+/* Form.css */
+.form-component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+ 
+   padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    font-size: 8rem;
+    font-weight: 500;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+   
+  
+.form-details {
+    display: flex;
+    flex-direction: column;
+     gap:60px;
+     position: relative;
+  }
+  .custom-toast{
+    position: absolute;
+    background-color: white;
+    top:10px;
+   font-size: 2rem;
+    width:500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in 1s;
+  }
+  .form-fill{
+    display: flex;
+    gap:90px;
+   
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+  }
+  
+  
+  .form-items {
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+  }
+  .check-items{
+    display: flex;
+    gap:50px;
+  }
+  .check-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.2em;
+    gap:10px;
+  }
+  
+  .form-items label {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 525;
+    text-align: left;
+    color: black
+  }
+  
+  .form-items input
+  {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-items input:focus
+{
+    border-color:purple;
+    outline: none;
+  }
+  .form-items-btn{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  button {
+   padding: 10px 15px;
+    font-size: 2rem;
+   color: white;
+   background-color: green;
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(237, 182, 237);
+    border:0.5px solid blue;
+  }
+  
+  .toast-container{
+    display: flex;
+    color: green;
+    flex-direction: column;
+    text-align: center;
+    height:250px;
+    width:600px;
+    margin-left:-165px;
+
+  }
+  .check-one input{
+    height:25px;
+    width:25px;
+  
+    border: 2px solid purple;
+    accent-color: purple; /* This sets the color of the checkbox */
+    
+  }
+  
+  .ty{
+    color: purple;
+  }
+  .asteric {
+    color: red;
+  }
+  

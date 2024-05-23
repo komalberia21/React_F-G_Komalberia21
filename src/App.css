@@ -1,0 +1,23 @@
+#root {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.app{
+  display:flex;
+  flex-direction: column;
+  font-size: 2rem;
+  gap:30px;
+}
+.title{
+  background-color: whitesmoke;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
